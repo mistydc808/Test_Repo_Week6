@@ -4,7 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => res.send('Hello World! This is the main page - DebasisB!'))
 
-app.get('/contact', (req, res) => res.send('This is the contact page - Contact!'))
+app.get('/contact', (req, res) => res.send('This is the contact page - Contact!')) // changing the end of the url /contact cahnges to another page
 
 app.get('/news', (req, res) => res.send('This is the news page - News!'))
 
